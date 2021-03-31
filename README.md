@@ -1,2 +1,3 @@
-# strapi-studyng
-Configuração do strapi para estudo da plataforma
+# Strapi application
+
+A quick description of your strapi application

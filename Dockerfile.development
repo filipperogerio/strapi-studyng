@@ -1,0 +1,25 @@
+FROM strapi/base
+
+WORKDIR /srv/app
+
+COPY ./package.json ./
+COPY ./yarn.lock ./
+
+
+
+VOLUME /srv/app
+
+COPY . .
+
+
+RUN yarn install
+
+COPY . .
+
+ENV NODE_ENV development
+
+RUN yarn build
+
+EXPOSE 1337
+
+CMD ["yarn", "start"]
