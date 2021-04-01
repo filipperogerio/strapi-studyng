@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,24 +11,23 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "^0.95.4",
-    "pg": "^8.5.1",
-    "sqlite3": "5.0.0",
     "strapi": "3.5.4",
     "strapi-admin": "3.5.4",
-    "strapi-connector-bookshelf": "3.5.4",
-    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-utils": "3.5.4",
     "strapi-plugin-content-type-builder": "3.5.4",
+    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-plugin-users-permissions": "3.5.4",
     "strapi-plugin-email": "3.5.4",
     "strapi-plugin-upload": "3.5.4",
-    "strapi-plugin-users-permissions": "3.5.4",
-    "strapi-utils": "3.5.4"
+    "strapi-connector-bookshelf": "3.5.4",
+    "knex": "0.21.18",
+    "pg": "8.5.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "94046970-9c72-4a72-8e1b-d45670747539"
+    "uuid": "4b558c5d-c51f-4ec9-90b7-fe46791fae8c"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
